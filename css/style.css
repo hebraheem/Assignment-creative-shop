@@ -107,6 +107,9 @@ body {
         display: block;
 
     }
+    .body {
+        padding-left: 10px;
+    }
     .link {
         margin-left: 20px;
     }
