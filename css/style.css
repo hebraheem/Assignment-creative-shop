@@ -29,7 +29,7 @@ body {
 }
 .link {
     margin-left: 200px;
-    margin-right: 150px;
+    margin-right: 100px;
     margin-top: 15px;
 }
 .link ul li{
@@ -48,10 +48,12 @@ body {
 }
 .login {
     padding-left: 20px;
+    padding: 10px;
 }
 .login a{
     text-decoration: none;
     color: black;
+    padding: 10px;
 }
 .login button{
     width: 100px;
@@ -62,6 +64,9 @@ body {
 }
 
 /* body section */
+.body {
+    padding-left: 100px;
+}
 
 .shop {
     margin-top: 200px;
