@@ -1,0 +1,121 @@
+.creative {
+    padding-left: 150px;
+    font-size: 20px;
+}* {
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: myFont;
+    src: url(/corbel/Corbel\ Bold.ttf);
+}
+h3 {
+    font-family: myFont;
+}
+
+body {
+    background: url(../images/bgOriginal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+.navbar {
+    display: flex;
+    margin-top: 30px;
+}
+
+.creative h3 {
+    color: purple;
+    font-size: 30px;
+}
+.link {
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: 15px;
+}
+.link ul li{
+    display: inline-block;
+    list-style: none;
+}
+.link ul li:nth-child(6){
+    display: none;
+}
+.link ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-family: myFont;
+    font-weight: 100;
+}
+.login {
+    padding-left: 20px;
+}
+.login a{
+    text-decoration: none;
+    color: black;
+}
+.login button{
+    width: 100px;
+    height: 35px;
+    background: #fff4f4;
+    border: purple solid 1px;
+    border-radius: 20px;
+}
+
+/* body section */
+
+.shop {
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 400px;
+    height: 400px;
+}
+.shop h3 {
+    font-size: 35px;
+}
+.shop button {
+    width: 120px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: rebeccapurple;
+    color: white;
+    border: rebeccapurple solid;
+    outline: none;
+}
+.shop button a {
+    text-decoration: none;
+    color: white;
+}
+.body img {
+    width: 800px; 
+    height: 650px;
+    margin: auto;
+    text-align: center;
+    border: purple solid;
+}
+
+@media screen and (max-width: 720px){
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .navbar {
+        display: block;
+
+    }
+    .link {
+        margin-left: 20px;
+    }
+    .link ul li, .login{
+        display: none;
+        padding: 0px;
+    }
+    .creative {
+        padding-left: 50px;
+    }
+    .link ul li:nth-child(6){
+        display: block;
+        float: right;
+        padding: none;
+    }
+}
+ 
